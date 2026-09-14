@@ -89,7 +89,7 @@ That's your shareable URL.
 ### Option B — Vercel dashboard (no local Node needed)
 
 1. Go to <https://vercel.com/new>.
-2. Click **Import** next to the `Shekharpadhy/Stock-analysis` repo.
+2. Click **Import** next to the `Ashbruh22/Stock-analysis` repo.
 3. Framework Preset: **Other**.
 4. Root Directory: **./** (the default).
 5. Build & Output settings: leave at defaults — `vercel.json` overrides them.
@@ -107,7 +107,7 @@ If your actual Vercel URL is different (preview deploys get unique URLs):
 1. Render dashboard → `bcsi-web` service → **Environment** (left sidebar).
 2. Edit `CORS_ORIGINS`. Set to a comma-separated list:
    ```
-   https://stock-analysis.vercel.app,https://stock-analysis-shekharpadhy.vercel.app
+   https://stock-analysis.vercel.app,https://stock-analysis-ashbruh22.vercel.app
    ```
    Include every Vercel URL that should be able to call the API — typically
    the production URL plus your preview-deploy pattern.
